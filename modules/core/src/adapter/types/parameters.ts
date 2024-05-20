@@ -43,6 +43,8 @@ type _RenderParameters = {
   depthBiasSlopeScale?: number;
   /** Maximum depth bias of a fragment. */
   depthBiasClamp?: number;
+  /** Disable depth testing. When disabled, fragments will be rendered based on the specified rendering order (painter's algorithm).  */
+  depthTest?: boolean;
 
   // Extensions
 
